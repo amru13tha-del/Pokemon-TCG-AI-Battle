@@ -1,0 +1,20 @@
+# Competition-restricted material -- NOT ours to redistribute.
+# docs/official/ptcg_engine/LicenseRef-PTCG-ABC-Competition-Use-Only.txt:
+# "Please don't redistribute it, post it publicly... any copy or adaptation
+# of it shall be deemed 'Pokemon Elements'." Covers the engine binaries,
+# the Python bindings that wrap them, the official card database, and any
+# archive that bundles them. Get cg/ from the Kaggle competition page
+# directly if you're setting this repo up to actually run.
+cg/
+docs/official/
+card_features.npz
+submission.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
