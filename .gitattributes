@@ -1,0 +1,21 @@
+# Treat these as binary. Without this, Git on Windows applies CRLF
+# conversion to strategy.pdf (it misdetects the PDF as text because of its
+# ASCII header/xref) and corrupts the file on checkout.
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.npz   binary
+*.pt    binary
+*.pkl   binary
+*.dll   binary
+*.so    binary
+*.dylib binary
+*.tar.gz binary
+
+# Keep source and docs as normalized text.
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
